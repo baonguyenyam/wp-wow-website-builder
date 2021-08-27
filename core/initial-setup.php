@@ -33,9 +33,9 @@ if (! class_exists('WOW_Initial_Setup')) {
 	            $wow_options['supported_post_type'] = array( 'post', 'page' );
                 $wow_options['include_role'] = array(
                     'administrator',
-                    'editor',
-                    'author',
-                    'contributor'
+                    // 'editor',
+                    // 'author',
+                    // 'contributor'
                 );
 	            $wow_options['css_save_as'] = 'wp_head';
 	            $wow_options['gutenberg_editor'] = 'enable';
@@ -47,9 +47,9 @@ if (! class_exists('WOW_Initial_Setup')) {
             $wow_options['supported_post_type'] = array( 'post', 'page' );
             $wow_options['include_role'] = array(
                 'administrator',
-                'editor',
-                'author',
-                'contributor'
+                // 'editor',
+                // 'author',
+                // 'contributor'
             );
             $wow_options['css_save_as'] = 'wp_head';
             $wow_options['gutenberg_editor'] = 'enable';
