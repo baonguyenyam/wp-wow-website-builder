@@ -4,7 +4,7 @@
  * Plugin URI:        https://wow-wp.com
  * Description:       WOW Page Builder is a FREE drag & drop website building tool for WordPress. This plugin lets you develop a wonderful site in minutes without any coding.
  * Version:           1.2.6
- * Author:            Nguyen Pham
+ * Author:            WOW WordPress
  * Author URI:        https://github.com/baonguyenyam/wp-wow-website-builder/
  * Text Domain:       wow-pagebuilder
  * License:           GPL-2.0+
