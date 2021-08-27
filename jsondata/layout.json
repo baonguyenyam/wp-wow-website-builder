@@ -1,0 +1,283 @@
+{
+  "success": true,
+  "cached_at": "Cached",
+  "data": [
+    {
+      "name": "Spa",
+      "ID": 100,
+      "parentID": 0,
+      "preview": "lib/layouts/Template-Spa-Home.jpg",
+      "preview_m": "lib/layouts/Template-Spa-Home-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Business", "slug": "business" },
+        { "name": "Creative", "slug": "creative" },
+        { "name": "Service", "slug": "service" }
+      ]
+    },
+    {
+      "name": "Spa &#8211; Home",
+      "ID": 1,
+      "parentID": 100,
+      "preview": "lib/layouts/Template-Spa-Home.jpg",
+      "preview_m": "lib/layouts/Template-Spa-Home-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Business", "slug": "business" },
+        { "name": "Creative", "slug": "creative" },
+        { "name": "Service", "slug": "service" }
+      ]
+    },
+    {
+      "name": "Spa &#8211; Offer",
+      "ID": 2,
+      "parentID": 100,
+      "preview": "lib/layouts/template-spa-offer.jpg",
+      "preview_m": "lib/layouts/template-spa-offer-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Business", "slug": "business" },
+        { "name": "Creative", "slug": "creative" },
+        { "name": "Service", "slug": "service" }
+      ]
+    },
+    {
+      "name": "Spa &#8211; Package",
+      "ID": 3,
+      "parentID": 100,
+      "preview": "lib/layouts/template-spa-package.jpg",
+      "preview_m": "lib/layouts/template-spa-package-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Business", "slug": "business" },
+        { "name": "Creative", "slug": "creative" },
+        { "name": "Service", "slug": "service" }
+      ]
+    },
+    {
+      "name": "Plumber",
+      "ID": 200,
+      "parentID": 0,
+      "preview": "lib/layouts/Template-Plumber-Home.jpg",
+      "preview_m": "lib/layouts/Template-Plumber-Home-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Business", "slug": "business" },
+        { "name": "Creative", "slug": "creative" },
+        { "name": "Service", "slug": "service" }
+      ]
+    },
+    {
+      "name": "Plumber &#8211; Home",
+      "ID": 4,
+      "parentID": 200,
+      "preview": "lib/layouts/Template-Plumber-Home.jpg",
+      "preview_m": "lib/layouts/Template-Plumber-Home-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Business", "slug": "business" },
+        { "name": "Creative", "slug": "creative" },
+        { "name": "Service", "slug": "service" }
+      ]
+    },
+    {
+      "name": "Plumber &#8211; About",
+      "ID": 5,
+      "parentID": 200,
+      "preview": "lib/layouts/Template-Plumber-About.jpg",
+      "preview_m": "lib/layouts/Template-Plumber-About-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Business", "slug": "business" },
+        { "name": "Creative", "slug": "creative" },
+        { "name": "Service", "slug": "service" }
+      ]
+    },
+    {
+      "name": "Plumber &#8211; Service",
+      "ID": 6,
+      "parentID": 200,
+      "preview": "lib/layouts/Template-Plumber-Service.jpg",
+      "preview_m": "lib/layouts/Template-Plumber-Service-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Business", "slug": "business" },
+        { "name": "Creative", "slug": "creative" },
+        { "name": "Service", "slug": "service" }
+      ]
+    },
+    {
+      "name": "Insurance",
+      "ID": 300,
+      "parentID": 0,
+      "preview": "lib/layouts/Template-Insurance-Home.jpg",
+      "preview_m": "lib/layouts/Template-Insurance-Home-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Agency", "slug": "agency" },
+        { "name": "Business", "slug": "business" },
+        { "name": "Service", "slug": "service" }
+      ]
+    },
+    {
+      "name": "Insurance &#8211; Home",
+      "ID": 7,
+      "parentID": 300,
+      "preview": "lib/layouts/Template-Insurance-Home.jpg",
+      "preview_m": "lib/layouts/Template-Insurance-Home-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Agency", "slug": "agency" },
+        { "name": "Business", "slug": "business" },
+        { "name": "Service", "slug": "service" }
+      ]
+    },
+    {
+      "name": "Insurance &#8211; About",
+      "ID": 8,
+      "parentID": 300,
+      "preview": "lib/layouts/Template-Insurance-About.jpg",
+      "preview_m": "lib/layouts/Template-Insurance-About-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Agency", "slug": "agency" },
+        { "name": "Business", "slug": "business" },
+        { "name": "Service", "slug": "service" }
+      ]
+    },
+    {
+      "name": "Insurance &#8211; Service",
+      "ID": 9,
+      "parentID": 300,
+      "preview": "lib/layouts/Template-Insurance-Service.jpg",
+      "preview_m": "lib/layouts/Template-Insurance-Service-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Agency", "slug": "agency" },
+        { "name": "Business", "slug": "business" },
+        { "name": "Service", "slug": "service" }
+      ]
+    },
+    {
+      "name": "Saloon",
+      "ID": 400,
+      "parentID": 0,
+      "preview": "lib/layouts/Template-Saloon-Home.jpg",
+      "preview_m": "lib/layouts/Template-Saloon-Home-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Agency", "slug": "agency" },
+        { "name": "Creative", "slug": "creative" },
+        { "name": "Service", "slug": "service" }
+      ]
+    },
+    {
+      "name": "Saloon &#8211; Home",
+      "ID": 10,
+      "parentID": 400,
+      "preview": "lib/layouts/Template-Saloon-Home.jpg",
+      "preview_m": "lib/layouts/Template-Saloon-Home-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Agency", "slug": "agency" },
+        { "name": "Creative", "slug": "creative" },
+        { "name": "Service", "slug": "service" }
+      ]
+    },
+    {
+      "name": "Saloon &#8211; about",
+      "ID": 11,
+      "parentID": 400,
+      "preview": "lib/layouts/Template-Saloon-About.jpg",
+      "preview_m": "lib/layouts/Template-Saloon-About-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Agency", "slug": "agency" },
+        { "name": "Creative", "slug": "creative" },
+        { "name": "Service", "slug": "service" }
+      ]
+    },
+
+    {
+      "name": "Saloon &#8211; Style Showcase",
+      "ID": 12,
+      "parentID": 400,
+      "preview": "lib/layouts/template-saloon-style-showcase.jpg",
+      "preview_m": "lib/layouts/template-saloon-style-showcase-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Business", "slug": "business" },
+        { "name": "Creative", "slug": "creative" },
+        { "name": "Service", "slug": "service" }
+      ]
+    },
+    {
+      "name": "Architecture",
+      "ID": 500,
+      "parentID": 0,
+      "preview": "lib/layouts/Template-Architecture-Home.jpg",
+      "preview_m": "lib/layouts/Template-Architecture-Home-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Service", "slug": "service" },
+        { "name": "Technology", "slug": "technology" }
+      ]
+    },
+    {
+      "name": "Architecture &#8211; Home",
+      "ID": 13,
+      "parentID": 500,
+      "preview": "lib/layouts/Template-Architecture-Home.jpg",
+      "preview_m": "lib/layouts/Template-Architecture-Home-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Service", "slug": "service" },
+        { "name": "Technology", "slug": "technology" }
+      ]
+    },
+    {
+      "name": "Architecture &#8211; About",
+      "ID": 14,
+      "parentID": 500,
+      "preview": "lib/layouts/Template-Architecture-About.jpg",
+      "preview_m": "lib/layouts/Template-Architecture-About-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Service", "slug": "service" },
+        { "name": "Technology", "slug": "technology" }
+      ]
+    },
+    {
+      "name": "Architecture &#8211; Services",
+      "ID": 15,
+      "parentID": 500,
+      "preview": "lib/layouts/Template-Architecture-Services.jpg",
+      "preview_m": "lib/layouts/Template-Architecture-Services-267x200.jpg",
+      "pro": false,
+      "liveurl": "#",
+      "category": [
+        { "name": "Service", "slug": "service" },
+        { "name": "Technology", "slug": "technology" }
+      ]
+    }
+  ]
+}
