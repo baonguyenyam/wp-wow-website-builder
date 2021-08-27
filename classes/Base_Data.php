@@ -12,7 +12,7 @@ if ( ! class_exists( 'WOW_Base_Data' ) ) {
 				'wow_form', 'wow_feature_box', 'wow_flip_box', 'wow_heading', 'wow_icon', 'wow_image',
 				'wow_image_hover', 'wow_person', 'wow_person_carousel', 'wow_pie_progress', 'wow_posts_grid', 'wow_pricing_table',
 				'wow_progress_bar', 'wow_raw_html', 'wow_social_button', 'wow_soundcloud', 'wow_tab', 'wow_testimonial',
-				'wow_testimonial_carousel', 'wow_text_block', 'wow_video', 'wow_video_popup','wow_carousel'
+				'wow_testimonial_carousel', 'wow_text_block', 'wow_blocks', 'wow_video', 'wow_video_popup','wow_carousel'
 			);
 
 			$available_addons = wow_helper()->get_addon_classes();

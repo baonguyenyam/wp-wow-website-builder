@@ -221,6 +221,7 @@ if ( ! class_exists('WOW_Helper')) {
 				'WOW_Addon_Text_Block',
 				'WOW_Addon_Video',
 				'WOW_Addon_Video_Popup',
+				'WOW_Addon_Blocks',
 			);
 			return apply_filters('wow_available_addons', $addons);
 		}
