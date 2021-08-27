@@ -26,7 +26,7 @@ if (! class_exists('WOW_Initial_Setup')) {
             
             // Update Legacy
             self::wow_legacy_data();
-
+            
             // Activating default post type
             if ( ! get_option( 'wow_is_used' ) ) { 
 	            $wow_options = ( array ) get_option( 'wow_options' );
@@ -38,6 +38,8 @@ if (! class_exists('WOW_Initial_Setup')) {
                     'contributor'
                 );
 	            $wow_options['css_save_as'] = 'wp_head';
+	            $wow_options['gutenberg_editor'] = 'enable';
+	            $wow_options['widget_block_editor'] = 'enable';
 	            update_option( 'wow_options', $wow_options );
 	            update_option( 'wow_is_used', WOW_VERSION );
             }
@@ -50,8 +52,11 @@ if (! class_exists('WOW_Initial_Setup')) {
                 'contributor'
             );
             $wow_options['css_save_as'] = 'wp_head';
+            $wow_options['gutenberg_editor'] = 'enable';
+            $wow_options['widget_block_editor'] = 'enable';
             update_option( 'wow_options', $wow_options );
             update_option( 'wow_is_used', WOW_VERSION );
+
         }
 
         // PHP Error Notice

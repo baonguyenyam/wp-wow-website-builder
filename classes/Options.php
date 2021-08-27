@@ -48,6 +48,12 @@ if ( ! class_exists('WOW_Options')){
 				if ( ! empty( $options['css_save_as'] ) ) {
 					$options['css_save_as'] = sanitize_text_field( $options['css_save_as'] );
 				}
+				if ( ! empty( $options['gutenberg_editor'] ) ) {
+					$options['gutenberg_editor'] = sanitize_text_field( $options['gutenberg_editor'] );
+				}
+				if ( ! empty( $options['widget_block_editor'] ) ) {
+					$options['widget_block_editor'] = sanitize_text_field( $options['widget_block_editor'] );
+				}
 				if ( ! empty( $options['supported_post_type'] ) ) {
 					$options['supported_post_type'] = $options['supported_post_type'];
 				}
@@ -77,6 +83,44 @@ if ( ! class_exists('WOW_Options')){
 					<div class="wow-box-wrapper">
 	
 						<table class="form-table wpex-custom-admin-login-table wow-table clearfix">
+
+
+							<tr>
+								<th scope="row"><?php esc_html_e( 'Disable the Gutenberg Editor', 'wow-pagebuilder' ); ?></th>
+								<td>
+									<?php $value = $option_data['gutenberg_editor']; ?>
+									<select name="wow_options[gutenberg_editor]">
+										<?php
+										$options = array(
+											'disable' => __( 'Off','wow-pagebuilder' ),
+											'enable'   => __( 'On','wow-pagebuilder' ),
+										);
+										foreach ( $options as $id => $label ) { ?>
+											<option value="<?php echo esc_attr( $id ); ?>" <?php selected( $value, $id, true ); ?>>
+												<?php echo strip_tags( $label ); ?>
+											</option>
+										<?php } ?>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row"><?php esc_html_e( 'Disable Widget Block Editor', 'wow-pagebuilder' ); ?></th>
+								<td>
+									<?php $value = $option_data['widget_block_editor']; ?>
+									<select name="wow_options[widget_block_editor]">
+										<?php
+										$options = array(
+											'disable' => __( 'Off','wow-pagebuilder' ),
+											'enable'   => __( 'On','wow-pagebuilder' ),
+										);
+										foreach ( $options as $id => $label ) { ?>
+											<option value="<?php echo esc_attr( $id ); ?>" <?php selected( $value, $id, true ); ?>>
+												<?php echo strip_tags( $label ); ?>
+											</option>
+										<?php } ?>
+									</select>
+								</td>
+							</tr>
 	
 							<tr>
 								<th scope="row"><?php esc_html_e( 'Post Type', 'wow-pagebuilder' ); ?></th>

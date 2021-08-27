@@ -20,6 +20,16 @@ class WOW_Theme_Manager {
 				add_filter( "theme_{$post_type}_templates", array( $this, 'add_wow_pagebuilder_template' ) );
 			}
 		}
+
+		$gutenberg_editor = wow_get_option('gutenberg_editor');
+		$widget_block_editor = wow_get_option('widget_block_editor');
+		if( $gutenberg_editor && $gutenberg_editor == 'enable' ){	
+			add_filter('use_block_editor_for_post', '__return_false');
+		}
+		if( $widget_block_editor && $widget_block_editor == 'enable' ){	
+			add_filter( 'use_widgets_block_editor', '__return_false' );
+		}
+
 	}
 
 	/**
