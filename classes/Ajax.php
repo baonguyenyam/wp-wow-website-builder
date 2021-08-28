@@ -9,7 +9,7 @@ if ( ! class_exists('WOW_Ajax')){
 
 		protected $switchAPI;
 		protected $api_base_url_switch = '/';
-		protected $api_base_url = 'https://builder.themeum.com/wp-json/restapi/v2/';
+		protected $api_base_url = '/wp-json/restapi/v2/';
 		protected $wow_api_request_body;
 		protected $wow_api_request_body_default;
 
